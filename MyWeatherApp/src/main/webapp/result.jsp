@@ -16,12 +16,13 @@
     <div class="mainContainer">
      <form action="weather" method="post" class="searchInput">
             <input type="text" placeholder="Enter City Name" id="searchInput"  name="city"/>
-			<button type="submit" class="searchButton"> <img alt="submit" src="images/search.png" > </button>
+			<button type="submit" class="searchButton"> </button>
       </form>
         <div class="weatherDetails">
             <div class="weatherIcon">
                 <img src="images/cloudy.png" alt="Clouds" id="weather-icon">
-                <h2>${temperature} °C</h2>
+                <h2>${weatherCondition}  ${temperature}°C</h2>
+                
                  <input type="hidden" id="wc" value="${weatherCondition}"> 
             </div>
             
