@@ -47,6 +47,9 @@
                     </div>
                 </div>
             </div>
+		<div class="cityDetails">
+			<a href="index.html" class="date">HomePage</a>          
+           	</div>
         </div>
     </div>
 
